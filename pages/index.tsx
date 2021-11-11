@@ -53,7 +53,7 @@ const Home: NextPage = () => {
                 <img
                   className="inline-block h-14 w-14 rounded-full mr-2"
                   src={`https://media.hyy.pe/metadata/700xAUTO/${NFTData.ownerDetails.verifiedProfileImage}.png`}
-                  alt=""
+                  alt="owner profile"
                 />
 
                 <a
