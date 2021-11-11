@@ -29,9 +29,6 @@ const Home: NextPage = () => {
                 <p className="text-sm font-bold text-indigo-500 mt-2">
                   {NFTData.name}
                 </p>
-                <p className="text-sm text-gray-500 mt-2">
-                  Owner: {NFTData.owner}
-                </p>
               </div>
             </div>
 
