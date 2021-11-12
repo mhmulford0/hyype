@@ -5,9 +5,11 @@ export const NFTContext = createContext({
   _id: "",
   type: "",
   name: "",
+  tokenId: "",
   metadata: {
     attributes: [
       {
+        trait_type: "",
         value: "",
       },
     ],
@@ -27,9 +29,11 @@ const NFTProvider: React.FC = ({ children }) => {
     _id: "",
     type: "",
     name: "",
+    tokenId: "",
     metadata: {
       attributes: [
         {
+          trait_type: "",
           value: "",
         },
       ],
@@ -47,7 +51,7 @@ const NFTProvider: React.FC = ({ children }) => {
   useEffect(() => {
     const fetchNFT = async () => {
       const { data } = await axios.get(
-        "https://api.hyy.pe/api/v1/token/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb/7756"
+        "https://api.hyy.pe/api/v1/token/0xa6794dec66df7d8b69752956df1b28ca93f77cd7/1482"
       );
 
       setNFTData(data);
