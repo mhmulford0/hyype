@@ -26,7 +26,7 @@ const Home: NextPage = () => {
             <img
               src={NFTData.metadata.imageUrl}
               alt="NFT Image"
-              className=" bg-contain object-contain object-center h-full overflow-y-hidden"
+              className=" bg-contain object-contain object-center h-full overflow-y-hidden mx-auto"
             />
           </div>
 
